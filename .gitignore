@@ -1,0 +1,16 @@
+# Package Managers
+node_modules
+
+# Environment Files
+.env
+
+# Framework Innards
+/.next/
+/out/
+
+# Build Files
+/build
+
+# OS Cruft
+.DS_Store
+Thumbs.db
