@@ -4,9 +4,11 @@ node_modules
 # Environment Files
 .env
 
-# Framework Innards
+# Framework Internals
 /.next/
 /out/
+next-env.d.ts
+*.tsbuildinfo
 
 # Build Files
 /build
