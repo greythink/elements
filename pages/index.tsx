@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <section className="container mt-24">
             <header className="flex flex-col items-center">
-                <h1 className="w-1/3">
+                <h1 className="xs:w-5/6 sm:w-2/3 md:w-1/2 lg:w-1/3">
                     <Image
                         src={logo}
                         width={800}
@@ -19,7 +19,7 @@ export default function Home() {
                 </h1>
             </header>
             <section className="max-w-prose mx-auto text-center">
-                <h2 className="mt-20 text-3xl text-brand-red leading-relaxed">
+                <h2 className="mt-20 text-2xl sm:text-3xl text-brand-red leading-relaxed">
                     Pre-Nursery, Nursery and L-KG
                     <br />
                     <span className="font-bold uppercase">
