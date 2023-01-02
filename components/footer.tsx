@@ -11,7 +11,9 @@ export default function Footer() {
                 Meerut Cantt, Meerut
             </p>
             <p className="mt-4">
-                Copyright &copy; 2023
+                Copyright &copy; 2023 The Elements School.
+                <br />
+                All rights reserved.
             </p>
         </footer>
     );
