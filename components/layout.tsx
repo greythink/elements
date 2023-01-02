@@ -14,7 +14,7 @@ const fontMali = Mali({
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
-        <div className="container mt-24">
+        <div className="container my-24">
             <main className={fontMali.variable}>
                 {children}
             </main>
