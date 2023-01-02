@@ -35,6 +35,13 @@ module.exports = {
         fontFamily: {
             title: ['var(--font-mali)', ...fontFamily.sans],
         },
+        screens: {
+            'xs': '480px',
+            'sm': '768px',
+            'md': '1024px',
+            'lg': '1366px',
+            'xl': '1536px',
+        },
         extend: {},
     },
     plugins: [
