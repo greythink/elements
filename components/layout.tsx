@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { Mali } from '@next/font/google';
+import Footer from './footer';
 
 
 
@@ -13,10 +14,11 @@ const fontMali = Mali({
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
-        <>
+        <div className="container mt-24">
             <main className={fontMali.variable}>
                 {children}
             </main>
-        </>
+            <Footer />
+        </div>
     );
 }

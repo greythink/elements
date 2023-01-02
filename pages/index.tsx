@@ -5,7 +5,7 @@ import logo from '../public/media/element_school_logo_2000w.png';
 
 export default function Home() {
     return (
-        <section className="container mt-24">
+        <section>
             <header className="flex flex-col items-center">
                 <h1 className="xs:w-5/6 sm:w-2/3 md:w-1/2 lg:w-1/3">
                     <Image
@@ -29,11 +29,6 @@ export default function Home() {
                 <h2 className="mt-20 text-2xl">
                     Website Coming Soon
                 </h2>
-                <p className="mt-20 text-2xl leading-relaxed">
-                    74/1, Main Road, near Sai Plaza, Kanker Khera
-                    <br />
-                    Meerut Cantt, Meerut
-                </p>
             </section>
         </section>
     );
