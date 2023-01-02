@@ -1,21 +1,13 @@
 import { AppProps } from 'next/app';
-import { Mali } from '@next/font/google';
+import Layout from '../components/layout';
 import '../styles/main.css';
-
-
-
-const fontMali = Mali({
-    weight: ['600', '700'],
-    subsets: ['latin'],
-    variable: '--font-mali',
-});
 
 
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
-        <main className={fontMali.variable}>
+        <Layout>
             <Component {...pageProps} />
-        </main>
+        </Layout>
     );
 }
