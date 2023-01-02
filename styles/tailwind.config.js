@@ -3,6 +3,7 @@
 
 
 const colors = require('tailwindcss/colors');
+const { fontFamily } = require('tailwindcss/defaultTheme');
 const typography = require('@tailwindcss/typography');
 
 
@@ -30,6 +31,9 @@ module.exports = {
             padding: {
                 DEFAULT: '1.5rem',
             },
+        },
+        fontFamily: {
+            title: ['var(--font-mali)', ...fontFamily.sans],
         },
         extend: {},
     },

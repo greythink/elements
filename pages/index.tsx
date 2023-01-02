@@ -18,11 +18,11 @@ export default function Home() {
                     </span>
                 </h1>
             </header>
-            <section className="prose mx-auto text-center">
+            <section className="max-w-prose mx-auto text-center">
                 <h2 className="mt-20 text-3xl text-brand-red leading-relaxed">
                     Pre-Nursery, Nursery and L-KG
                     <br />
-                    <span className="">
+                    <span className="font-bold uppercase">
                         Admissions Open
                     </span>
                 </h2>
