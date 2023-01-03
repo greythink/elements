@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="max-w-prose mx-auto text-center">
-            <p className="mt-20 text-lg leading-relaxed">
+            <p className="mt-20 leading-relaxed">
                 The Elements School
                 <br />
                 74/1, Main Road
@@ -10,10 +10,10 @@ export default function Footer() {
                 <br />
                 Meerut Cantt, Meerut
             </p>
-            <p className="mt-4">
-                Copyright &copy; 2023 The Elements School.
+            <p className="mt-4 text-sm">
+                Copyright &copy; 2023 The Elements School
                 <br />
-                All rights reserved.
+                All rights reserved
             </p>
         </footer>
     );
