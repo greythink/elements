@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Mali } from '@next/font/google';
+import { Mali, Nunito } from '@next/font/google';
 import Footer from './footer';
 
 
@@ -9,13 +9,18 @@ const fontMali = Mali({
     subsets: ['latin'],
     variable: '--font-mali',
 });
+const fontNunito = Nunito({
+    weight: '400',
+    subsets: ['latin'],
+    variable: '--font-nunito',
+});
 
 
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
-        <div className="container my-24">
-            <main className={fontMali.variable}>
+        <div className={`page-wrapper ${fontMali.variable} ${fontNunito.variable} container my-24`}>
+            <main>
                 {children}
             </main>
             <Footer />
