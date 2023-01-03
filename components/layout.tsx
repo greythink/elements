@@ -4,22 +4,22 @@ import Footer from './footer';
 
 
 
-const fontMali = Mali({
+const fontTitle = Mali({
     weight: ['600', '700'],
     subsets: ['latin'],
-    variable: '--font-mali',
+    variable: '--font-title',
 });
-const fontNunito = Nunito({
+const fontBody = Nunito({
     weight: '400',
     subsets: ['latin'],
-    variable: '--font-nunito',
+    variable: '--font-body',
 });
 
 
 
 export default function Layout({ children }: { children: ReactNode }) {
     return (
-        <div className={`page-wrapper ${fontMali.variable} ${fontNunito.variable} container my-24`}>
+        <div className={`page-wrapper ${fontTitle.variable} ${fontBody.variable} container my-24`}>
             <main>
                 {children}
             </main>

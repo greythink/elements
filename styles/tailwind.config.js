@@ -33,8 +33,8 @@ module.exports = {
             },
         },
         fontFamily: {
-            title: ['var(--font-mali)', ...fontFamily.sans],
-            body:  ['var(--font-nunito)', ...fontFamily.sans],
+            title: ['var(--font-title)', ...fontFamily.sans],
+            body:  ['var(--font-body)', ...fontFamily.sans],
         },
         screens: {
             'xs': '480px',
