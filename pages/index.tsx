@@ -20,11 +20,11 @@ export default function Home() {
             </header>
             <section className="max-w-prose mx-auto text-center">
                 <h2 className="mt-20 text-2xl sm:text-3xl text-brand-red leading-relaxed">
-                    Pre-Nursery, Nursery and L-KG
-                    <br />
                     <span className="font-bold uppercase">
                         Admissions Open
                     </span>
+                    <br />
+                    Pre-Nursery, Nursery, L-KG and U-KG
                 </h2>
                 <h2 className="mt-20 text-2xl">
                     Website Coming Soon
