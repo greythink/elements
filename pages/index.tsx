@@ -24,7 +24,7 @@ export default function Home() {
                         Admissions Open
                     </span>
                     <br />
-                    Pre-Nursery, Nursery, L-KG and U-KG
+                    Pre-Nursery, Nursery, <span className="break-keep">L-KG</span> and <span className="break-keep">U-KG</span>
                 </h2>
                 <h2 className="mt-20 text-2xl">
                     Website Coming Soon
