@@ -7,11 +7,13 @@ import Footer from './footer';
 const fontTitle = Mali({
     weight: ['500', '700'],
     subsets: ['latin'],
+    display: 'swap',
     variable: '--font-title',
 });
 const fontBody = Nunito({
     weight: '400',
     subsets: ['latin'],
+    display: 'swap',
     variable: '--font-body',
 });
 
