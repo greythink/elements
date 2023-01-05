@@ -4,11 +4,9 @@ export default function Footer() {
             <p className="mt-20 leading-relaxed">
                 The Elements School
                 <br />
-                74/1, Main Road
+                74/1, Main Road, Near Sai Plaza
                 <br />
-                Near Sai Plaza, Kanker Khera
-                <br />
-                Meerut Cantt, Meerut
+                Kanker Khera, Meerut
             </p>
             <p className="mt-4 text-sm">
                 Copyright &copy; 2023 The Elements School
