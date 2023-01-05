@@ -24,13 +24,12 @@ export default function Home() {
                     </h1>
                 </header>
                 <section className="max-w-prose mx-auto text-center">
-                    <h2 className="mt-20 text-2xl sm:text-3xl text-brand-red leading-relaxed">
-                        <span className="font-bold uppercase">
-                            Admissions Open
-                        </span>
-                        <br />
-                        Pre-Nursery, Nursery, <span className="break-keep">L-KG</span> and <span className="break-keep">U-KG</span>
+                    <h2 className="mt-20 mb-2 text-2xl sm:text-4xl text-brand-red uppercase font-bold">
+                        Admissions Open
                     </h2>
+                    <h3 className="text-lg sm:text-2xl text-brand-red font-medium">
+                        Pre-Nursery, Nursery, <span className="break-keep">L-KG</span> and <span className="break-keep">U-KG</span>
+                    </h3>
                     <h2 className="mt-20 text-2xl">
                         Website Coming Soon
                     </h2>
