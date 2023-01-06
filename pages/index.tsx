@@ -9,6 +9,7 @@ export default function Home() {
         <>
             <Head>
                 <title>The Elements School - Admissions Open</title>
+                <meta name="description" content="The Elements School is a premium school in Meerut, India. It offers quality education to early learners using scientific methologies that ensure their holistic development." />
             </Head>
             <section>
                 <header className="flex flex-col items-center">

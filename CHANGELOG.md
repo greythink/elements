@@ -10,4 +10,5 @@ Release notes for The Elements School website.
 - Set up project scaffolding.
 - Created website homepage.
 - Added SEO title.
+- Added meta description.
 - Added favicon.
