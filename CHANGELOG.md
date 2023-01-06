@@ -4,7 +4,7 @@ Release notes for The Elements School website.
 
 
 
-## Unreleased
+## 0.1.0 - 2023-01-06
 
 ### Added
 - Set up project scaffolding.
